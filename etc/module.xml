@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of the Multi-Store Fix Module for Magento 2.
+ * Copyright (c) 2017 METMEER. All rights reserved.
+ * See LICENSE for copyright and license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="METMEER_MultiStoreFix" setup_version="1.0.0">
+        <sequence>
+            <module name="Magento_Store"/>
+        </sequence>
+    </module>
+</config>
